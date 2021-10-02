@@ -1,0 +1,1 @@
+﻿SELECT * FROM ADMINTBL where Account_No = @Account_No and Pin_No = @Pin_No

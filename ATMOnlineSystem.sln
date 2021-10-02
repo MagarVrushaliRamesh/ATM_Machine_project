@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMOnlineSystem", "ATMOnlineSystem\ATMOnlineSystem.csproj", "{DA724A50-31AD-4BBC-BA3D-64B0E9B98AB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA724A50-31AD-4BBC-BA3D-64B0E9B98AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA724A50-31AD-4BBC-BA3D-64B0E9B98AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA724A50-31AD-4BBC-BA3D-64B0E9B98AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA724A50-31AD-4BBC-BA3D-64B0E9B98AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3111E45-82F9-4B17-832F-3EFB2A44D5D1}
+	EndGlobalSection
+EndGlobal

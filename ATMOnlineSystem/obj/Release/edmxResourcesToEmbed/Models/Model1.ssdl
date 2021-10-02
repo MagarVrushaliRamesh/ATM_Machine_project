@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ATMDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'D:\.NET STUDY\ATMONLINESYSTEM\ATMONLINESYSTEM\APP_DATA\ATMDATABASE.MDF.dbo.Addcustomertable1' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Addcustomertable1">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email Id" Type="nvarchar" MaxLength="50" />
+    <Property Name="Contact No" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="A/c Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="A/c No" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="Balance" Type="money" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="ATMDatabaseModelStoreContainer">
+    <EntitySet Name="Addcustomertable1" EntityType="Self.Addcustomertable1" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Addcustomertable1].[id] AS [id], 
+    [Addcustomertable1].[Name] AS [Name], 
+    [Addcustomertable1].[Address] AS [Address], 
+    [Addcustomertable1].[City] AS [City], 
+    [Addcustomertable1].[Email Id] AS [Email Id], 
+    [Addcustomertable1].[Contact No] AS [Contact No], 
+    [Addcustomertable1].[A/c Type] AS [A/c Type], 
+    [Addcustomertable1].[A/c No] AS [A/c No], 
+    [Addcustomertable1].[Balance] AS [Balance], 
+    [Addcustomertable1].[UserName] AS [UserName], 
+    [Addcustomertable1].[Password] AS [Password]
+    FROM [dbo].[Addcustomertable1] AS [Addcustomertable1]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
